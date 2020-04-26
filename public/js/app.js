@@ -3446,9 +3446,11 @@ __webpack_require__.r(__webpack_exports__);
 
         var _config = _objectSpread2({}, Default$1, {}, $this.data(), {}, typeof config === 'object' && config ? config : {});
 
+        /*Custom Code Changes
         if (!data && _config.toggle && /show|hide/.test(config)) {
           _config.toggle = false;
         }
+        */
 
         if (!data) {
           data = new Collapse(this, _config);
