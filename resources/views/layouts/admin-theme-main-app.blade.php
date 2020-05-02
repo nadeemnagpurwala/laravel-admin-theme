@@ -9,7 +9,15 @@
             <div id="layoutAuthentication">
                 <div id="layoutAuthentication_content">
                     <main>
-                        @yield('content')
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5 pt-3">
+                                    <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                         @yield('content')
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </main>
                 </div>
                 <div id="layoutAuthentication_footer">
